@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt - Maija Nyström Papazi</title>
+    <link rel="stylesheet" href="../CSS/globalstylesheet.css" />
+    <link rel="stylesheet" href="../CSS/form.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ijx0ruw.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">
+        <img class="logo" src="../IMAGES/logotype.png" alt="logo" />
+      </a>
+      <h1 id="heading">Maija Nyström Papazi Konstgalleri</h1>
+    </header>
+    <nav>
+      <a href="../index.html" class="nav-link">Galleri</a>
+      <a href="../HTML/om.html" class="nav-link">Om</a>
+      <a href="../HTML/projekt.html" class="nav-link">Pågående projekt</a>
+      <a class="current" href="kontakt.html" class="nav-link">Kontakt</a>
+      <a href="../HTML/inspiration.html" class="nav-link">Inspiration</a>
+    </nav>
+
+    <div class="container">
+      <form action="./luring.html">
+        <div class="contact">
+          <p>
+            Är du intresserad av samarbeten, eller har du bara en allmän fråga?
+            Fyll i formuläret och skicka så får du svar inom kort.
+          </p>
+
+          <label for="fname">Förstanamn:</label>
+          <input type="text" placeholder="Ditt namn.." />
+
+          <label for="sname">Efternamn:</label>
+          <input type="text" placeholder="Ditt efternamn.." />
+
+          <label for="email">E-mail:</label>
+          <input type="text" placeholder="Din e-mail.." />
+        </div>
+
+        <div class="message">
+          <label for="msg">Meddelande</label>
+          <textarea
+            name="msg"
+            id="msg"
+            cols="30"
+            rows="10"
+            placeholder="Vad har du på hjärtat?"
+          ></textarea>
+
+          <!-- medvetet icke-fungerande knapp -->
+          <input type="submit" value="Skicka" />
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <p>Skapad av Maija Nyström</p>
+      <p>Oktober 2020 &#169;</p>
+    </footer>
+  </body>
+</html>
